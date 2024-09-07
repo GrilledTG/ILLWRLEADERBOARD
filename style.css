@@ -1,0 +1,70 @@
+@font-face{
+  font-family: myFont;
+  src:url(ApfelGrotezk-Fett.otf);
+
+}
+html {
+  font-family: myFont;
+  color: #ffffff;
+  background-color: #252424;
+  height: 100%;
+  width: 100%;
+}
+heading {
+
+}
+h1 {
+  font-size: 9em;
+  text-align: center; /* Center the text within the h1 */
+}
+ol {
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Center the list horizontally */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items vertically */
+}
+.div-1 {
+  display: flex; /* Enable flexbox layout for .div-1 */
+  justify-content: center; /* Center content horizontally within .div-1 */
+  align-items: center; /* Center content vertically within .div-1 */
+  background-color: #100f0f;
+  height: auto; /* Allow the div to adjust its height automatically */
+  width: auto; /* Allow the div to adjust its width automatically */
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px; /* Add some padding for better spacing */
+}
+#wrTotal, #wrHolders {
+  text-align: center;
+}
+/* ... your existing style.css code ... */
+
+ol li { 
+  width: 200px; 
+  padding-left: 20px; 
+}
+
+ol li div {
+  display: flex;
+  align-items: baseline; /* Align items by their baseline */
+  justify-content: space-between; 
+}
+
+ol li div span:first-child { 
+  text-align: left; 
+}
+
+ol li div span:last-child {
+  text-align: right; 
+}
+
+/* ... your existing style.css code ... */
+.gold {
+  color: gold; /* Or use a specific hex code if you prefer */
+}
+.silver {
+  color: silver; /* Or use a specific hex code if you prefer */
+}
+.bronze {
+  color: #b08d57; /* Or use a specific hex code if you prefer */
+}
